@@ -1,0 +1,23 @@
+{
+  "source_dataset": "D:\\Downloads_D\\Academics\\Projects\\Sagin_DT-DQO-pt2\\Sagin_DT-DQO-main\\pso_training_dataset_extended.csv",
+  "dataset_path": "D:\\Downloads_D\\Academics\\Projects\\Sagin_DT-DQO-pt2\\Sagin_DT-DQO-main\\per_task_policy_dataset_1m.csv",
+  "rows": 1001140,
+  "task_groups": 100114,
+  "invalid_candidate_groups": 0,
+  "label_column": "policy_selected",
+  "label_rule": "argmin(candidate_local_cost + coord_coupling_penalty)",
+  "profiles": {
+    "normal": 7744,
+    "high_traffic": 12285,
+    "low_traffic": 1912,
+    "good_channel": 7754,
+    "poor_channel": 7793,
+    "few_users": 1829,
+    "many_users": 15526,
+    "low_energy": 7745,
+    "high_energy": 7718,
+    "emergency_surge": 14713,
+    "fidelity_stress": 7541,
+    "high_mobility": 7554
+  }
+}
